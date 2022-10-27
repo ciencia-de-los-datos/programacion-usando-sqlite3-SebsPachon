@@ -17,3 +17,17 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT SUM(c12)  FROM tbl1
+
+'''
+DROP TABLE IF EXISTS tabla1;
+
+CREATE TABLE tabla1 (K0  CHAR(1),
+K1  INT,
+c12 FLOAT,
+c13 INT,
+c14 DATE,
+c15 FLOAT,
+c16 CHAR(4));
+'''
+

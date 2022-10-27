@@ -17,4 +17,5 @@
 --  0        30
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
+
+SELECT COUNT(*) FROM tbl1
