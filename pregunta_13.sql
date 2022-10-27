@@ -42,4 +42,4 @@
 --  4  E  474.825000
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT K0,round(AVG(c12),6)  FROM tbl1 WHERE c13 > 400 GROUP BY K0
+SELECT K0 AS [K0], AVG(c12) AS [avg(c12)] FROM tbl1 WHERE c13 > 400 GROUP BY [K0]
